@@ -1,6 +1,6 @@
 import os
 # Новая библиотека google-genai импортируется именно так!
-import google.genai
+import google.generativeai as genai
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
